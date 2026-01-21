@@ -89,4 +89,4 @@ de Salis, E., Bianco, M., Giri, S., Chen, T., Parth Krishna, S., Finlay, C., Nis
 
 ---
 ## License
-TBD
+Creative Commons Attribution 4.0 International
