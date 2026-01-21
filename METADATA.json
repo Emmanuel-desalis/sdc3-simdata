@@ -1,0 +1,61 @@
+{
+  "dataset_name": "PRISME-21 (SDC3-SimData)",
+  "description": "PRISME-21 is an open-access interferometric simulation dataset designed for testing astrophysical foreground mitigation techniques in the 21-cm Epoch of Reionization context. Developed for the SKA Science Data Challenge 3a by the Swiss-Swedish SEarCH team, it includes realistic sky, instrument, and noise simulations and follows the CASA MeasurementSet standard.",
+  "version": "1.0",
+  "total_size_TB": 6.58,
+  "structure": {
+    "atmo": "Atmospheric emission and propagation simulations (42.92 GB)",
+    "data": "General simulation data and control products (41.85 GB)",
+    "frg": "Foreground components (Galactic + extragalactic) (6.12 GB)",
+    "exgf": "Extended Galactic foregrounds (3.04 GB)",
+    "gf": "Galactic foreground subsets (3.08 GB)",
+    "image": "Diagnostic and visualization images (653 KB)",
+    "lightcones": "Cosmological HI lightcone cubes (837 MB)",
+    "ms": {
+      "description": "Main interferometric visibilities stored as CASA MeasurementSets",
+      "approx_folder_count": 300,
+      "per_folder_size_GB": 16.93,
+      "subtables": [
+        "ANTENNA",
+        "DATA_DESCRIPTION",
+        "FEED",
+        "FIELD",
+        "FLAG_CMD",
+        "HISTORY",
+        "OBSERVATION",
+        "PHASED_ARRAY",
+        "POINTING",
+        "POLARIZATION",
+        "PROCESSOR",
+        "SOURCE",
+        "SPECTRAL_WINDOW",
+        "STATE"
+      ]
+    }
+  },
+  "naming_convention": {
+    "example": "lc_256_train_130923_i0_dT_ch614_4h1d_256.MS",
+    "parameters": {
+      "lc_256": "Lightcone resolution",
+      "train_130923": "Simulation batch/date",
+      "i0": "Realization index",
+      "dT": "Thermal noise setting",
+      "dTgf": "Galactic foreground variant",
+      "ch614": "Frequency channel index",
+      "4h1d": "Observing strategy",
+      "256": "Image cube dimension"
+    }
+  },
+  "data_access": {
+    "primary_tool": "https://github.com/Emmanuel-desalis/sdc3-simdata",
+    "storage_backend": "S3-compatible RGW object store at CSCS",
+    "endpoint": "https://rgw.cscs.ch",
+    "bucket": "sdc3-simdata",
+    "tenant": "ska"
+  },
+  "contact": {
+    "maintainer": "Emmanuel de Salis",
+    "institution": "HE-Arc / SEarCH collaboration"
+  },
+  "license": "CC-BY-4.0 (recommended)"
+}
