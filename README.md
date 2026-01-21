@@ -1,7 +1,7 @@
 # SDC3-SimData Public Access Tool
 
 This is the readme for the minimal Python script to **list, inspect, and download** the public dataset `PRSIME-21`, also called `sdc3-simdata` hosted on CSCS RGW (Ceph, S3-compatible) **without credentials**.
-Metadata of the PRISME-21 dataset are described in the DATA_DICTIONARY.md file. 
+Metadata of the PRISME-21 dataset are described in the METADATA.md file. 
 
 ## Purpose
 This script is **exclusively for accessing the `sdc3-simdata` dataset**. It uses unsigned S3 REST calls over HTTPS.
