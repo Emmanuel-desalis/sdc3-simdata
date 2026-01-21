@@ -81,5 +81,10 @@ python sdc3_simdata_downloader.py --all --dest ./sdc3_all
 
 ---
 
+## Reference
+- Please cite this dataset as :
+`de Salis, E., Bianco, M., Giri, S., Chen, T., Parth Krishna, S., Finlay, C., Nistane, V., Denzel, P., De Santis, M., & Ghorbel, H. (2026). PRISME-21 - Public Reference for Interferometric Simulations for Foreground Mitigation in the Epoch of Reionization (EoR) 21-cm signal [Data set]. Zenodo. https://doi.org/10.5281/zenodo.18326619`
+
+---
 ## License
 TBD
